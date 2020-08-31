@@ -26,7 +26,7 @@ chardet==3.0.4
 click==7.1.2
 cycler==0.10.0
 gast==0.3.3
-google-aut==1.20.1
+google-auth==1.20.1
 google-auth-oauthlib==0.4.1
 googl1-pasta==0.2.0
 greenle==0.4.16
