@@ -15,7 +15,9 @@ from flask import Flask, redirect, url_for, request, render_template
 app = Flask(__name__)
 
 
-model = load_model("Pneumonia-DENSENET.h5")         # Necessary
+dirname = os.path.dirname(__file__)
+filename = os.path.join(dirname, "Pneumonia-DENSENET.h5")
+model = load_model(filename)          # Necessary
 
 
 
